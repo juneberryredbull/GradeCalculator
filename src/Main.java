@@ -33,6 +33,8 @@ public class Main {
             System.out.println("Your grade is: D");
         } else if (60 > grade && grade >= 0) {
             System.out.println("Your grade is: F god youre fucking stupid");
+        } else if (grade < 0) {
+            System.err.println("Enter a number between 0 and 100.");
         }
     }
 }
