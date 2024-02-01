@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your grade: ");
-        int grade = input.nextInt();
+        double grade = input.nextDouble();
         // the following statements are an else-if chain that determines the letter grade according to number input
         if (grade >= 92) {
             System.out.println("Your grade is: A");
